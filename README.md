@@ -60,3 +60,16 @@ Check running containers:
 ```bash
 docker compose ps
 ```
+
+### 🌐 Access the Web UI
+
+Once all containers are running, you can access the Traffic Control web interface at:
+
+```
+https://<your-ip>:8443
+```
+
+Replace `<your-ip>` with your server's IP address or use `localhost` if running locally:
+
+```
+https://localhost:8443
